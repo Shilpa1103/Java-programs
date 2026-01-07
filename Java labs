@@ -23,8 +23,8 @@ public class DefaultValues {
         System.out.println("the Default value of boolean is : " + obj.bool);
     }
 }
-## Output
-![Output Screenshot](1(a)output.png)
+##output :
+![Output Screenshot](output/1(a)output.png)
 
 
 
