@@ -1,8 +1,6 @@
 # Java Lab Programs
 
-## Experiment 1 – Default Values
-
-#! EXPERIMENT 1(a)
+## Experiment 1 – Default Value
 public class DefaultValues {
     byte b;
     short s;
