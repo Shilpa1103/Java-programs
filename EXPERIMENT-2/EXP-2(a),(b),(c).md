@@ -25,6 +25,6 @@ public class squ {
 ```
 
 #OUTPUT:
-![EXPERIMENT 2A OUTPUT](2(a)output)
+![EXPERIMENT 2A OUTPUT](2(a)output.png)
 
 
