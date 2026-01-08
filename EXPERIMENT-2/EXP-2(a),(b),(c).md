@@ -31,6 +31,8 @@ public class squ {
 
 
 
+
+
 #EXPERIMENT2B
 ##EXP2B TITLE:implement method overloading
 ```
@@ -62,6 +64,49 @@ public class overloading {
 ```
 #OUTPUT:
 ![EXP2B OUTPUT](2(b)output.png)
+
+
+
+#EXP-2C 
+##TITLE:implement constructor
+```
+
+class Student {
+
+    int id;
+    String name;
+    int age;
+
+    Student(int i, String n, int a) {
+        id = i;
+        name = n;
+        age = a;
+    }
+   void display() {
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("id: " + id);
+       
+  }
+  }
+ public class main {
+
+    public static void main(String[] args) {
+
+       
+        Student s1 = new Student(19,"shilpa", 95);
+
+        s1.display();
+       
+    }
+}
+```
+
+#OUTPUT:
+![EXP-2C OUTPUT](2(c)output.png)
+
+
 
 
 
