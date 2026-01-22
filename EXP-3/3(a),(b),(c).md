@@ -127,3 +127,64 @@ import java.util.Arrays;
 #output:
 ![exp3a output](3(b)output.png)
 
+
+
+#EXP-3C
+##TOPIC:BubbleSort
+```java
+
+import java.util.Scanner;
+class Bubblesort{
+    void Bsort(int arr[]){
+          int n=arr.length;
+           int temp = 0;
+       for(int i=0;i<n-1;i++){
+           for(int j=0;j<n-i-1;j++){
+               if(arr[j]>arr[j+1]){
+                    temp=arr[i];
+                     arr[i]=arr[i+1];
+                      arr[i+1]=temp;
+}
+}
+}
+}
+}
+import java.util.Scanner;
+
+ public class Bubble{
+
+     public static void main(String[] args){
+
+           Scanner sc=new Scanner(System.in);
+
+        System.out.println("Enter size of array:");
+
+           int size=sc.nextInt();
+
+           int[] integer=new int[size];
+
+         for(int i=0;i<size;i++){
+
+             System.out.println("Enter the value of integer at index"+i+":");
+
+               integer[i]=sc.nextInt();
+
+ }
+
+    Bubblesort bs=new Bubblesort();
+
+         bs.Bsort(integer);
+
+      System.out.println("The sorted integer:");
+
+     for(int i=0;i<size;i++){
+
+         System.out.print(integer[i]+" ");
+}
+}
+}
+```
+
+#output:
+![exp 3c output](3(c)output.png)
+
