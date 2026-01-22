@@ -29,4 +29,4 @@ public class Main{
 }
 }
 #OUTPUT:
-![EXP3(a) output](Screenshot2026-01-22213721.png)
+![EXP3(a) output](3(a)output.png)
