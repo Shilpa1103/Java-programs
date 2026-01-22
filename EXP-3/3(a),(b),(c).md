@@ -28,5 +28,7 @@ public class Main{
                  s2.display();
 }
 }
+```
+
 #OUTPUT:
 ![EXP3(a) output](3(a)output.png)
